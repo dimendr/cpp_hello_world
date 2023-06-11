@@ -45,7 +45,7 @@ pipeline{
                 sh """./${params.FILE_NAME}"""
             }
         }
-        stage('Sending an artifact to 'dimendr'){
+        stage('Sending an artifact to dimendr'){
             steps{
 			    // Настройки плагина Publish Over SSH
                 sshPublisher(
