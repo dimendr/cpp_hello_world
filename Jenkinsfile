@@ -1,20 +1,3 @@
-  GNU nano 6.2                                  Jenkinsfile
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 pipeline{
     agent any
     stages{
